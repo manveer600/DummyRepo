@@ -10,6 +10,21 @@
 *ORIGIN* -> Jahan se humne code liya tha vohi hamari origin hai, us origin/repository k upr hum apna code push krna chahte hain(us specific origin k andar hum apna code main branch me push krna chahte h). 
 --> suppose humne 1 repo bnayi github pe -> toh vohi repo origin hai. Ab us github pe jab code push krna hoga toh hmesha origin me hoga or origin k andar 1 specific branch me hoga therefore we use git push origin MAIN.
 10. git status -> kitne changes hain jo git track nhi kr rha.
+11. git branch -> shows all the branches
+12. git branch "newBranch" -> makes new branch
+13. git config -> It shows commands I can use.
+14. git checkout "branchName" -> helps to switch to the branch
+15. git checkout -b "branchName" -> helps to switch to the new branch if previously create else it will create a new branch and then switch to it.
+16. ls -> To view all the files in a folder(infact vo y bhi bta dega ki jitni files hain last aapne unko kb update kiya tha and unki length kya h?)
+17. git restore -> Jo bhi mene likha hai apni working directory me vo sb delete ho jayega or git hume hamare previous changes pe wapis le aayega (suppose mene apni index.js m kuch add kra or git status dekha toh vo dikhayega ki modified index.js, ab jese hi m git restore . krunga toh sb delete ho jayega or koi changes nhi honge stage/commit krne k liye) --> BHOT KHATARNAAK COMMAND hai.
+18. git diff -> SIRF WORKING DIRECTORY OR STAGING AREA K BEECH K CHANGES KO SHOW KREGA
+19. git branch -a -> saari branches show krega local pe bhi and remotely bhi.
+20. git branch -d [branch name] -> deleted a branch
+21. git push origin --delete [branch name]	-> deletes a branch from remote(obv c baat hai origin m jaa k delete krna mtlb remote respository se delete krna)
+22. git branch -m [old branch name] [new branch name] -> rename a local branch
+
+
+
 
 There are 4 types of changes in git 
 untracked -> Changes not tracked by git
