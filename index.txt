@@ -16,7 +16,8 @@
 14. git checkout "branchName" -> helps to switch to the branch
 15. git checkout -b "branchName" -> helps to switch to the new branch if previously create else it will create a new branch and then switch to it.
 16. ls -> To view all the files in a folder(infact vo y bhi bta dega ki jitni files hain last aapne unko kb update kiya tha and unki length kya h?)
-17. 
+17. git restore -> Jo bhi mene likha hai apni working directory me vo sb delete ho jayega or git hume hamare previous changes pe wapis le aayega (suppose mene apni index.js m kuch add kra or git status dekha toh vo dikhayega ki modified index.js, ab jese hi m git restore . krunga toh sb delete ho jayega or koi changes nhi honge stage/commit krne k liye) --> BHOT KHATARNAAK COMMAND hai.
+18 git diff -> SIRF WORKING DIRECTORY OR STAGING AREA K BEECH K CHANGES KO SHOW KREGA
 
 There are 4 types of changes in git 
 untracked -> Changes not tracked by git
