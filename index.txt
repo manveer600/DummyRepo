@@ -1,0 +1,19 @@
+1. git --version -> version of git you are using
+2. git config --global user.name “your name” -> to tell git what’s your name
+3. git config --global user.email “your email” -> to tell git what’s your mail id
+4. git config --list -> to see the configuration   
+5. git init -> git ko bta rhe hain ki aap aajao or changes track krna shuru krdo(.git folder will be made)
+6. git add . -> All the files are shifted from you working directory to the git staging area(.git file)
+7 .git commit -m ‘message’ -> Kya change kra h aapne usko message me dikhao.
+8. git remote add 'gitUrl' -> 1 repository jo remote hai us k sath tumhari local wali directory ka connection ban gya. Now you can push the local code on that directory which is a remote directory.
+9. git push origin main -> upload the local repo to remote repo(main branch).
+*ORIGIN* -> Jahan se humne code liya tha vohi hamari origin hai, us origin/repository k upr hum apna code push krna chahte hain(us specific origin k andar hum apna code main branch me push krna chahte h). 
+--> suppose humne 1 repo bnayi github pe -> toh vohi repo origin hai. Ab us github pe jab code push krna hoga toh hmesha origin me hoga or origin k andar 1 specific branch me hoga therefore we use git push origin MAIN.
+10. git status -> kitne changes hain jo git track nhi kr rha.
+
+There are 4 types of changes in git 
+untracked -> Changes not tracked by git
+modified -> Jo files change hui hain
+staged -> file k changes ko mene stage kr liya mtlb ab vo commit hone k liye tyar hain(git add fileName)
+unmodified -> koi change nhi hai
+
