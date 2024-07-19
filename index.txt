@@ -10,6 +10,13 @@
 *ORIGIN* -> Jahan se humne code liya tha vohi hamari origin hai, us origin/repository k upr hum apna code push krna chahte hain(us specific origin k andar hum apna code main branch me push krna chahte h). 
 --> suppose humne 1 repo bnayi github pe -> toh vohi repo origin hai. Ab us github pe jab code push krna hoga toh hmesha origin me hoga or origin k andar 1 specific branch me hoga therefore we use git push origin MAIN.
 10. git status -> kitne changes hain jo git track nhi kr rha.
+11. git branch -> shows all the branches
+12. git branch "newBranch" -> makes new branch
+13. git config -> It shows commands I can use.
+14. git checkout "branchName" -> helps to switch to the branch
+15. git checkout -b "branchName" -> helps to switch to the new branch if previously create else it will create a new branch and then switch to it.
+16. ls -> To view all the files in a folder(infact vo y bhi bta dega ki jitni files hain last aapne unko kb update kiya tha and unki length kya h?)
+17. 
 
 There are 4 types of changes in git 
 untracked -> Changes not tracked by git
